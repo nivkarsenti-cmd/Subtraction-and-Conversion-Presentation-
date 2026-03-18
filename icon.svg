@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- rounded background -->
+  <rect width="512" height="512" rx="100" fill="#ede9fe"/>
+
+  <!-- wheel outer ring -->
+  <circle cx="256" cy="256" r="212" fill="#ddd6fe"/>
+
+  <!-- sector 0 — violet (top) -->
+  <path d="M256,256 L256,54 A202,202 0 0,1 431,357 Z" fill="#5b21b6"/>
+  <!-- sector 1 — orange (bottom-right) -->
+  <path d="M256,256 L431,357 A202,202 0 0,1 81,357 Z" fill="#c2410c"/>
+  <!-- sector 2 — teal (bottom-left) -->
+  <path d="M256,256 L81,357 A202,202 0 0,1 256,54 Z" fill="#065f46"/>
+
+  <!-- sector dividers -->
+  <line x1="256" y1="256" x2="256" y2="54"  stroke="white" stroke-width="6" opacity="0.6"/>
+  <line x1="256" y1="256" x2="431" y2="357" stroke="white" stroke-width="6" opacity="0.6"/>
+  <line x1="256" y1="256" x2="81"  y2="357" stroke="white" stroke-width="6" opacity="0.6"/>
+
+  <!-- outer ring stroke -->
+  <circle cx="256" cy="256" r="202" fill="none" stroke="white" stroke-width="8" opacity="0.6"/>
+
+  <!-- labels -->
+  <text x="278" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="white" opacity="0.95">30</text>
+  <text x="370" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="white" opacity="0.95">40</text>
+  <text x="142" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="white" opacity="0.95">50</text>
+
+  <!-- hub -->
+  <circle cx="256" cy="256" r="46" fill="white"/>
+  <!-- minus sign in hub -->
+  <rect x="228" y="248" width="56" height="16" rx="8" fill="#7c3aed"/>
+
+  <!-- pointer (top) -->
+  <polygon points="256,42 242,20 270,20" fill="#d32f2f"/>
+</svg>
